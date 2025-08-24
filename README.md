@@ -2,6 +2,8 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ededeb12-b9b6-466e-8807-9fe5b458f759/deploy-status)](https://app.netlify.com/projects/mustansirs-resume/deploys)
 
+> Just a single index.html file with a lot of fancy tooling to make it work. (Peak software engineering behaviour?)
+
 ## Local Development
 
 ### Prerequisites
