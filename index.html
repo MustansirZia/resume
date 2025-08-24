@@ -1,0 +1,747 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mustansir Zia - Resume</title>
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;500;600;700&display=swap");
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family:
+                    "Source Sans Pro",
+                    -apple-system,
+                    BlinkMacSystemFont,
+                    "Segoe UI",
+                    "Helvetica Neue",
+                    sans-serif;
+                line-height: 1.4;
+                color: #333;
+                background: #fff;
+                font-size: 11pt;
+                font-weight: 400;
+            }
+
+            .container {
+                max-width: 8.5in;
+                margin: 0 auto;
+                padding: 0.5in;
+                min-height: 11in;
+            }
+
+            .header {
+                text-align: center;
+                margin-bottom: 25px;
+                border-bottom: 2px solid #2c5282;
+                padding-bottom: 15px;
+            }
+
+            .name {
+                font-size: 28pt;
+                font-weight: 700;
+                color: #2c5282;
+                margin-bottom: 5px;
+                letter-spacing: -0.3px;
+            }
+
+            .title {
+                font-size: 14pt;
+                color: #4a5568;
+                margin-bottom: 10px;
+                font-style: italic;
+                font-weight: 500;
+            }
+
+            .contact-info {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 20px;
+                font-size: 10pt;
+                font-weight: 500;
+            }
+
+            .contact-item {
+                color: #2c5282;
+            }
+
+            .section {
+                margin-bottom: 20px;
+            }
+
+            .section-title {
+                font-size: 14pt;
+                font-weight: 700;
+                color: #2c5282;
+                border-bottom: 1px solid #e2e8f0;
+                padding-bottom: 5px;
+                margin-bottom: 12px;
+                text-transform: uppercase;
+                letter-spacing: 0.3px;
+            }
+
+            .experience-item {
+                margin-bottom: 15px;
+                page-break-inside: avoid;
+            }
+
+            .job-header {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                margin-bottom: 5px;
+            }
+
+            .job-title {
+                font-weight: 600;
+                font-size: 12pt;
+                color: #2d3748;
+            }
+
+            .company {
+                font-weight: 600;
+                color: #2c5282;
+                font-size: 11pt;
+            }
+
+            .duration {
+                font-style: italic;
+                color: #718096;
+                font-size: 10pt;
+                white-space: nowrap;
+                font-weight: 500;
+            }
+
+            .location {
+                color: #718096;
+                font-size: 10pt;
+                margin-bottom: 8px;
+                font-weight: 500;
+            }
+
+            .job-description {
+                margin-left: 0;
+                text-align: justify;
+            }
+
+            .achievement {
+                margin-bottom: 8px;
+            }
+
+            .achievement-title {
+                font-weight: 600;
+                color: #2d3748;
+            }
+
+            .skills-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 15px;
+            }
+
+            .skill-category {
+                margin-bottom: 10px;
+            }
+
+            .skill-category-title {
+                font-weight: 600;
+                color: #2c5282;
+                margin-bottom: 3px;
+            }
+
+            .skill-list {
+                color: #4a5568;
+                line-height: 1.3;
+                font-weight: 400;
+            }
+
+            .education-item {
+                margin-bottom: 10px;
+            }
+
+            .degree {
+                font-weight: 600;
+                color: #2d3748;
+            }
+
+            .school {
+                color: #2c5282;
+                font-weight: 600;
+            }
+
+            .summary {
+                text-align: justify;
+                color: #4a5568;
+                font-size: 11pt;
+                line-height: 1.5;
+                font-weight: 400;
+            }
+
+            .quote {
+                font-style: italic;
+                color: #718096;
+                margin-bottom: 10px;
+                text-align: center;
+                font-weight: 400;
+            }
+
+            @media print {
+                body {
+                    font-size: 10pt;
+                }
+                .container {
+                    padding: 0.4in;
+                }
+                .name {
+                    font-size: 24pt;
+                }
+                .section-title {
+                    font-size: 12pt;
+                }
+                .skills-grid {
+                    grid-template-columns: 1fr 1fr;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <!-- Header -->
+            <div class="header">
+                <div class="name">Mustansir Zia</div>
+                <div class="title">
+                    Senior Technical Lead & Software Architect
+                </div>
+                <div class="contact-info">
+                    <span class="contact-item">+91 9906517759</span>
+                    <a href="mailto:iam@mustansir.dev">
+                        <span class="contact-item">iam@mustansir.dev</span>
+                    </a>
+                    <a
+                        href="https://mustansir.dev"
+                        target="blank"
+                        rel="noopener noreferrer"
+                    >
+                        <span class="contact-item">mustansir.dev</span>
+                    </a>
+                    <a
+                        href="https://linkedin.com/in/mustansirzia"
+                        target="blank"
+                        rel="noopener noreferrer"
+                    >
+                        <span class="contact-item"
+                            >linkedin.com/in/mustansirzia
+                        </span>
+                    </a>
+                    <a
+                        href="https://github.com/MustansirZia"
+                        target="blank"
+                        rel="noopener noreferrer"
+                    >
+                        <span class="contact-item">
+                            github.com/MustansirZia
+                        </span>
+                    </a>
+                    <span class="contact-item">Srinagar, J&K, India</span>
+                </div>
+            </div>
+
+            <!-- Summary -->
+            <div class="section">
+                <div class="section-title">Professional Summary</div>
+                <div class="quote">
+                    "Good engineers know how to scale, great engineers know when
+                    to." - Anonymous
+                </div>
+                <div class="summary">
+                    Accomplished Senior Technical Lead with 9 years of
+                    experience designing and building scalable software systems
+                    that serve millions of users. Proven track record of leading
+                    engineering teams, architecting distributed systems, and
+                    delivering high-impact products in fintech and SaaS
+                    environments. Strong advocate for engineering best
+                    practices, code quality, and mentorship. Author and
+                    maintainer of many open-source projects with 35K+ downloads.
+                    Expertise spanning full-stack development, microservices
+                    architecture, and DevOps practices with a philosophy of
+                    building testable, robust, real-time, highly available
+                    systems.
+                </div>
+            </div>
+
+            <!-- Experience -->
+            <div class="section">
+                <div class="section-title">Professional Experience</div>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Senior Technical Lead</div>
+                            <div class="company">ClearGlass</div>
+                        </div>
+                        <div class="duration">March 2024 - Present</div>
+                    </div>
+                    <div class="location">
+                        London Area, United Kingdom (Remote)
+                    </div>
+                    <div class="job-description">
+                        Leading backend development for a fintech platform
+                        focused on bringing transparency to investment costs,
+                        potentially impacting millions of people's savings
+                        returns. Responsible for authoring and maintaining
+                        distributed backend systems in a highly regulated
+                        financial environment.
+                        <br /><br />
+                        <div class="achievement">
+                            <span class="achievement-title"
+                                >• Infrastructure Automation:</span
+                            >
+                            Identified critical process gaps in AWS deployment
+                            workflows. Implemented comprehensive Terraform
+                            automation and CI/CD pipelines ensuring all
+                            environment changes are planned and applied without
+                            human intervention, eliminating deployment risks.
+                        </div>
+                        <div class="achievement">
+                            <span class="achievement-title"
+                                >• Technical Debt Management:</span
+                            >
+                            Actively documented legacy technical debt
+                            accumulated over years and proposed strategic
+                            simplification plan for existing infrastructure and
+                            architecture, significantly reducing time-to-market
+                            for new features.
+                        </div>
+                        <div class="achievement">
+                            <span class="achievement-title"
+                                >• AI Workbench Development:</span
+                            >
+                            Conceived and developed AI-augmented sandbox
+                            environment enabling rapid prototyping and testing
+                            of new features without traditional risks associated
+                            with AI-assisted development processes.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">SDE - III</div>
+                            <div class="company">Hubilo</div>
+                        </div>
+                        <div class="duration">January 2023 - March 2024</div>
+                    </div>
+                    <div class="location">
+                        Bengaluru, Karnataka, India (Remote)
+                    </div>
+                    <div class="job-description">
+                        Built and maintained critical microservices and
+                        serverless functions handling millions of daily requests
+                        for payment systems, lead generation, and notification
+                        pipelines using Node.js, TypeScript, and event-driven
+                        architecture with Apache Kafka. Scaled services through
+                        queuing non-critical writes, maintaining distributed
+                        caches, and load balancing across database replicas and
+                        shards.
+                        <br /><br />
+                        <div class="achievement">
+                            <span class="achievement-title"
+                                >• Real-time Leaderboard System:</span
+                            >
+                            Led development from scratch processing thousands of
+                            engagements per second using Kafka and Redis.
+                            Devised optimal algorithms achieving sub-second
+                            scoring for hundreds of thousands of attendees.
+                        </div>
+                        <div class="achievement">
+                            <span class="achievement-title"
+                                >• URL Shortener Service:</span
+                            >
+                            Designed high-performance service handling thousands
+                            of requests per second with sub-50ms global response
+                            times using efficient hashing, distributed caches,
+                            and edge functions.
+                        </div>
+                        <div class="achievement">
+                            <span class="achievement-title"
+                                >• Data Archival Pipeline:</span
+                            >
+                            Architected intelligent data migration framework
+                            moving terabytes from production databases (MySQL,
+                            MongoDB, Aurora) to AWS Glacier using data batching
+                            and streaming without service disruption.
+                        </div>
+                        <div class="achievement">
+                            <span class="achievement-title"
+                                >• Metrics Framework:</span
+                            >
+                            Led Prometheus and Grafana implementation for
+                            comprehensive service performance monitoring and
+                            availability measurement.
+                        </div>
+                        <div class="achievement">
+                            <span class="achievement-title"
+                                >• Testing Leadership:</span
+                            >
+                            Spearheaded initiative achieving 90%+ test coverage
+                            organization-wide, resulting in automated testing
+                            and increased maintainability. Team holds company
+                            record for maximum test coverage.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">SDE - II</div>
+                            <div class="company">Hubilo</div>
+                        </div>
+                        <div class="duration">July 2021 - December 2022</div>
+                    </div>
+                    <div class="location">
+                        Bengaluru, Karnataka, India (Remote)
+                    </div>
+                    <div class="job-description">
+                        <div class="achievement">
+                            <span class="achievement-title"
+                                >• Metaverse Platform:</span
+                            >
+                            Led development of real-time metaverse feature
+                            handling 30K requests per second with Redis Lua
+                            scripts ensuring data consistency and
+                            WebSocket-based real-time interactions.
+                        </div>
+                        <div class="achievement">
+                            <span class="achievement-title"
+                                >• WebSocket Infrastructure:</span
+                            >
+                            Re-architected WebSocket server cluster supporting
+                            10K concurrent connections per node while
+                            eliminating race conditions.
+                        </div>
+                        <div class="achievement">
+                            <span class="achievement-title"
+                                >• RBAC Service:</span
+                            >
+                            Designed and implemented role-based access control
+                            system with high availability through load-balanced
+                            cluster architecture.
+                        </div>
+                        <div class="achievement">
+                            <span class="achievement-title"
+                                >• Testing Framework:</span
+                            >
+                            Established testing culture achieving 90%+ coverage,
+                            resulting in zero-bug releases and setting
+                            company-wide coverage records.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">
+                                Software Engineering Consultant
+                            </div>
+                            <div class="company">Musalleen Inc</div>
+                        </div>
+                        <div class="duration">August 2021 - March 2022</div>
+                    </div>
+                    <div class="location">
+                        Srinagar, Jammu & Kashmir, India (Remote)
+                    </div>
+                    <div class="job-description">
+                        Provided technical leadership and engineering process
+                        optimization. Conducted code reviews, mentored team
+                        members, and debugged complex technical issues while
+                        strengthening overall engineering practices.
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">
+                                Senior Software Engineer
+                            </div>
+                            <div class="company">Musalleen Inc</div>
+                        </div>
+                        <div class="duration">November 2018 - July 2021</div>
+                    </div>
+                    <div class="location">Srinagar, J&K, India (Remote)</div>
+                    <div class="job-description">
+                        Led development of web and mobile applications using
+                        React.js, Kotlin, and Flutter. Architected and
+                        maintained monolithic APIs written in Flask and Kotlin
+                        with full Docker containerization for service
+                        orchestration and auto-scaling via AWS ECS.
+                        <br /><br />
+                        <div class="achievement">
+                            <span class="achievement-title"
+                                >• Blue-Green Deployments:</span
+                            >
+                            Implemented zero-downtime deployment strategies
+                            ensuring continuous system availability.
+                        </div>
+                        <div class="achievement">
+                            <span class="achievement-title"
+                                >• CI/CD Pipeline:</span
+                            >
+                            Established Jenkins server on AWS, automating
+                            testing and deployment across all products, reducing
+                            feedback loops significantly.
+                        </div>
+                        <div class="achievement">
+                            <span class="achievement-title"
+                                >• Infrastructure Automation:</span
+                            >
+                            Utilized Terraform for automated infrastructure
+                            provisioning for multiple clients.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Software Engineer</div>
+                            <div class="company">KyoLAB</div>
+                        </div>
+                        <div class="duration">October 2018 - November 2018</div>
+                    </div>
+                    <div class="location">London, United Kingdom (Remote)</div>
+                    <div class="job-description">
+                        Created continuous integration and delivery pipeline for
+                        Android applications using scalable containerized
+                        Jenkins. Gained valuable fintech startup experience in a
+                        fast-paced environment.
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">
+                                Full Stack Engineer / Technical Lead
+                            </div>
+                            <div class="company">GraphicWeave</div>
+                        </div>
+                        <div class="duration">April 2016 - November 2018</div>
+                    </div>
+                    <div class="location">Srinagar, J&K, India</div>
+                    <div class="job-description">
+                        Designed and authored distributed, highly available
+                        systems from ground up using Node.js and Golang. Led
+                        development of web and mobile applications using
+                        React.js, React Native, and Kotlin. Progressed to
+                        Technical Lead role, managing entire engineering team
+                        for 6 months.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Experience & Projects -->
+            <div class="section">
+                <div class="section-title">
+                    Notable Projects & Part-Time Experience
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Founding Lead Engineer</div>
+                            <div class="company">Meego</div>
+                        </div>
+                        <div class="duration">October 2017 - March 2018</div>
+                    </div>
+                    <div class="location">Chandigarh, India (Remote)</div>
+                    <div class="job-description">
+                        Architected and single-handedly developed complete
+                        tourism platform connecting travelers with
+                        government-registered tour guides. Built cross-platform
+                        React Native app, native Android app in Kotlin, and
+                        Node.js APIs with MongoDB. Implemented comprehensive
+                        tech stack including payment integration (Razorpay),
+                        analytics (Segment, Mixpanel), real-time communication
+                        (Deepstream), and full DevOps pipeline with Docker.
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Open Source Contributor</div>
+                            <div class="company">GitHub</div>
+                        </div>
+                        <div class="duration">Ongoing</div>
+                    </div>
+                    <div class="job-description">
+                        Author and maintainer of 17 open-source projects with
+                        35K+ downloads on npm and pub.dev. Active contributor to
+                        the developer community through technical blogging at
+                        <a
+                            href="https://mustansir.dev"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <span class="contact-item">mustansir.dev</span>
+                        </a>
+                        and Medium. Content creator on YouTube (
+                        <a
+                            href="https://youtube.com/mzm20nine"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <span class="contact-item">
+                                youtube.com/mzm20nine
+                            </span>
+                        </a>
+                        ) documenting development processes.
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">Problem Solving</div>
+                            <div class="company">LeetCode</div>
+                        </div>
+                        <div class="duration">Ongoing</div>
+                    </div>
+                    <div class="job-description">
+                        Solved 160+ algorithmic problems on LeetCode with
+                        submissions consistently ranking in top percentile.
+                        Demonstrates strong foundation in data structures,
+                        algorithms, and problem-solving skills.
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section-title">Technical Skills</div>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <div class="skill-category-title">
+                            Programming Languages
+                        </div>
+                        <div class="skill-list">
+                            JavaScript, TypeScript, Golang, Java, Python,
+                            Kotlin, Dart, PHP, Lua
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-category-title">Databases</div>
+                        <div class="skill-list">
+                            MySQL, PostgreSQL, MongoDB, Cassandra,
+                            ElasticSearch, Neo4j, Redis, Memcached
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-category-title">
+                            Backend Technologies
+                        </div>
+                        <div class="skill-list">
+                            Apache Kafka, RabbitMQ, RESTful APIs, GraphQL,
+                            WebSockets, Microservices, gRPC
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-category-title">Data</div>
+                        <div class="skill-list">
+                            Apache Spark, Redshift, ETL, Data Lake
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-category-title">AI & ML</div>
+                        <div class="skill-list">
+                            LangChain, LangGraph, PyTorch
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-category-title">
+                            Frontend Technologies
+                        </div>
+                        <div class="skill-list">
+                            React.js, Next.js, Vue.js, React Native, Flutter,
+                            Android Development
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-category-title">Cloud & DevOps</div>
+                        <div class="skill-list">
+                            AWS, Docker, Terraform, Packer, Jenkins, CircleCI,
+                            GitHub Actions, Linux, Vercel, CDN
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-category-title">
+                            Monitoring & Testing
+                        </div>
+                        <div class="skill-list">
+                            Prometheus, Grafana, ELK Stack, Open Telemetry, TDD,
+                            Jest, Cypress, Testing Library
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div class="section">
+                <div class="section-title">Education</div>
+                <div class="education-item">
+                    <div class="degree">
+                        Bachelor of Technology (B.Tech.) - Electronics &
+                        Communication Engineering
+                    </div>
+                    <div class="school">University of Kashmir</div>
+                    <div class="duration">2011 - 2016 • CGPA: 7.9</div>
+                </div>
+            </div>
+
+            <!-- Certifications & Achievements -->
+            <div class="section">
+                <div class="section-title">Certifications & Achievements</div>
+                <div class="achievement">
+                    • Oracle Certified Professional, Java SE 6 Programmer
+                </div>
+                <div class="achievement">
+                    • Hubilo Limitless Award - Tech (2x recipient)
+                </div>
+                <div class="achievement">
+                    • Author and maintainer of 17 open-source projects on GitHub
+                </div>
+                <div class="achievement">
+                    • Technical blog author at
+                    <a
+                        href="https://mustansir.dev"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <span class="contact-item">mustansir.dev</span>
+                    </a>
+                </div>
+                <div class="achievement">
+                    • YouTube content creator (
+                    <a
+                        href="https://youtube.com/mzm20nine"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <span class="contact-item">
+                            youtube.com/mzm20nine
+                        </span>
+                    </a>
+                    )
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Mustanir's Resume",
+  "keywords": [
+    "resume"
+  ],
+  "homepage": "https://github.com/MustansirZia/resume#readme",
+  "bugs": {
+    "url": "https://github.com/MustansirZia/resume/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MustansirZia/resume.git"
+  },
+  "license": "ISC",
+  "author": "Mustansir Zia",
+  "scripts": {
+    "serve": "live-server ."
+  },
+  "engines": {
+    "node": "^22"
+  },
+  "dependencies": {
+    "live-server": "1.2.2"
+  }
+}
