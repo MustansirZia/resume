@@ -16,12 +16,16 @@
   "license": "ISC",
   "author": "Mustansir Zia",
   "scripts": {
-    "serve": "live-server ."
+    "serve": "live-server .",
+    "start": "http-server ."
   },
   "engines": {
     "node": "^22"
   },
-  "dependencies": {
+  "devDependencies": {
     "live-server": "1.2.2"
+  },
+  "dependencies": {
+    "http-server": "14.1.1"
   }
 }
