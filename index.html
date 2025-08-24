@@ -5,7 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Mustansir Zia - Resume</title>
         <style>
-            @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;500;600;700&display=swap");
+            @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;500;600;700&display=swap');
+
+            :root {
+                --primary-color: #2c5282;
+                --primary-hover: #3182ce;
+                --text-primary: #333;
+                --text-secondary: #2d3748;
+                --text-muted: #4a5568;
+                --text-light: #718096;
+                --border-color: #e2e8f0;
+                --background: #fff;
+            }
 
             * {
                 margin: 0;
@@ -14,16 +25,10 @@
             }
 
             body {
-                font-family:
-                    "Source Sans Pro",
-                    -apple-system,
-                    BlinkMacSystemFont,
-                    "Segoe UI",
-                    "Helvetica Neue",
-                    sans-serif;
+                font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
                 line-height: 1.4;
-                color: #333;
-                background: #fff;
+                color: var(--text-primary);
+                background: var(--background);
                 font-size: 11pt;
                 font-weight: 400;
             }
@@ -38,21 +43,21 @@
             .header {
                 text-align: center;
                 margin-bottom: 25px;
-                border-bottom: 2px solid #2c5282;
+                border-bottom: 2px solid var(--primary-color);
                 padding-bottom: 15px;
             }
 
             .name {
                 font-size: 28pt;
                 font-weight: 700;
-                color: #2c5282;
+                color: var(--primary-color);
                 margin-bottom: 5px;
                 letter-spacing: -0.3px;
             }
 
             .title {
                 font-size: 14pt;
-                color: #4a5568;
+                color: var(--text-muted);
                 margin-bottom: 10px;
                 font-style: italic;
                 font-weight: 500;
@@ -68,7 +73,7 @@
             }
 
             .contact-item {
-                color: #2c5282;
+                color: var(--primary-color);
             }
 
             .section {
@@ -78,8 +83,8 @@
             .section-title {
                 font-size: 14pt;
                 font-weight: 700;
-                color: #2c5282;
-                border-bottom: 1px solid #e2e8f0;
+                color: var(--primary-color);
+                border-bottom: 1px solid var(--border-color);
                 padding-bottom: 5px;
                 margin-bottom: 12px;
                 text-transform: uppercase;
@@ -101,25 +106,25 @@
             .job-title {
                 font-weight: 600;
                 font-size: 12pt;
-                color: #2d3748;
+                color: var(--text-secondary);
             }
 
             .company {
                 font-weight: 600;
-                color: #2c5282;
+                color: var(--primary-color);
                 font-size: 11pt;
             }
 
             .duration {
                 font-style: italic;
-                color: #718096;
+                color: var(--text-light);
                 font-size: 10pt;
                 white-space: nowrap;
                 font-weight: 500;
             }
 
             .location {
-                color: #718096;
+                color: var(--text-light);
                 font-size: 10pt;
                 margin-bottom: 8px;
                 font-weight: 500;
@@ -136,7 +141,7 @@
 
             .achievement-title {
                 font-weight: 600;
-                color: #2d3748;
+                color: var(--text-secondary);
             }
 
             .skills-grid {
@@ -151,12 +156,12 @@
 
             .skill-category-title {
                 font-weight: 600;
-                color: #2c5282;
+                color: var(--primary-color);
                 margin-bottom: 3px;
             }
 
             .skill-list {
-                color: #4a5568;
+                color: var(--text-muted);
                 line-height: 1.3;
                 font-weight: 400;
             }
@@ -167,17 +172,17 @@
 
             .degree {
                 font-weight: 600;
-                color: #2d3748;
+                color: var(--text-secondary);
             }
 
             .school {
-                color: #2c5282;
+                color: var(--primary-color);
                 font-weight: 600;
             }
 
             .summary {
                 text-align: justify;
-                color: #4a5568;
+                color: var(--text-muted);
                 font-size: 11pt;
                 line-height: 1.5;
                 font-weight: 400;
@@ -185,10 +190,33 @@
 
             .quote {
                 font-style: italic;
-                color: #718096;
+                color: var(--text-light);
                 margin-bottom: 10px;
                 text-align: center;
                 font-weight: 400;
+            }
+
+            .pdf-download-section {
+                text-align: center;
+                margin-top: 25px;
+                padding-top: 15px;
+                border-top: 1px solid var(--border-color);
+            }
+
+            .pdf-download-link {
+                color: var(--primary-color);
+                text-decoration: none;
+                font-size: 10pt;
+                font-weight: 500;
+                font-family: 'Source Sans Pro', sans-serif;
+                border-bottom: 1px dotted var(--primary-color);
+                transition: all 0.2s ease;
+            }
+
+            .pdf-download-link:hover {
+                color: var(--primary-hover);
+                border-bottom-style: solid;
+                cursor: pointer;
             }
 
             @media print {
@@ -744,28 +772,13 @@
             </div>
 
             <div
-                style="
-                    text-align: center;
-                    margin-top: 25px;
-                    padding-top: 15px;
-                    border-top: 1px solid #e2e8f0;
-                "
+                class="pdf-download-section"
             >
                 <span
                     href="#"
+
+                    class="pdf-download-link"
                     onclick="window.print(); return false;"
-                    style="
-                        color: #2c5282;
-                        text-decoration: none;
-                        font-size: 10pt;
-                        font-weight: 500;
-                        font-family: &quot;Source Sans Pro&quot;, sans-serif;
-                        border-bottom: 1px dotted #2c5282;
-                        transition: all 0.2s ease;
-                        cursor: pointer;
-                    "
-                    onmouseover="this.style.color='#3182ce'; this.style.borderBottomStyle='solid'"
-                    onmouseout="this.style.color='#2c5282'; this.style.borderBottomStyle='dotted'"
                 >
                     Download PDF
                 </>
