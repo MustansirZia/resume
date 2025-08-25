@@ -135,6 +135,16 @@
                 text-align: justify;
             }
 
+            .job-description > u {
+                font-weight: 400;
+                text-decoration-line: underline;
+                text-decoration-style: dashed;
+                text-decoration-color: var(--text-light);
+                text-underline-offset: 2px;
+                -webkit-text-decoration-color: var(--text-light);
+                -webkit-text-decoration-style: dashed;
+            }
+
             .achievement {
                 margin-bottom: 8px;
             }
@@ -142,6 +152,16 @@
             .achievement-title {
                 font-weight: 600;
                 color: var(--text-secondary);
+            }
+
+            .achievement > u {
+                font-weight: 400;
+                text-decoration-line: underline;
+                text-decoration-style: dashed;
+                text-decoration-color: var(--text-light);
+                text-underline-offset: 2px;
+                -webkit-text-decoration-color: var(--text-light);
+                -webkit-text-decoration-style: dashed;
             }
 
             .skills-grid {
@@ -319,22 +339,22 @@
                         London Area, United Kingdom (Remote)
                     </div>
                     <div class="job-description">
-                        Leading backend development for a fintech platform
+                        Leading backend development for a highly regulated fintech platform
                         focused on bringing transparency to investment costs,
                         potentially impacting millions of people's savings
                         returns. Responsible for authoring and maintaining
-                        distributed backend systems in a highly regulated
-                        financial environment.
+                        a distributed backend system of <u>Laravel</u> and <u>Node.js</u> services.
                         <br /><br />
                         <div class="achievement">
                             <span class="achievement-title"
                                 >• Infrastructure Automation:</span
                             >
-                            Identified critical process gaps in AWS deployment
-                            workflows. Implemented comprehensive Terraform
+                            Identified critical process gaps in <u>AWS</u> deployment
+                            workflows. Implemented comprehensive <u>Terraform</u>
                             automation and CI/CD pipelines ensuring all
                             environment changes are planned and applied without
-                            human intervention, eliminating deployment risks.
+                            human intervention, <u>eliminating deployment risks
+                            and reducing manual labour.</u>
                         </div>
                         <div class="achievement">
                             <span class="achievement-title"
@@ -343,15 +363,15 @@
                             Actively documented legacy technical debt
                             accumulated over years and proposed strategic
                             simplification plan for existing infrastructure and
-                            architecture, significantly reducing time-to-market
+                            architecture, significantly <u>reducing time-to-market</u>
                             for new features.
                         </div>
                         <div class="achievement">
                             <span class="achievement-title"
                                 >• AI Workbench Development:</span
                             >
-                            Conceived and developed AI-augmented sandbox
-                            environment enabling rapid prototyping and testing
+                            Conceived and developed <u>AI-augmented</u> sandbox
+                            environment enabling <u>rapid prototyping</u> and testing
                             of new features without traditional risks associated
                             with AI-assisted development processes.
                         </div>
@@ -361,126 +381,79 @@
                 <div class="experience-item">
                     <div class="job-header">
                         <div>
-                            <div class="job-title">SDE - III</div>
+                            <div class="job-title">SDE - III / II</div>
                             <div class="company">Hubilo</div>
                         </div>
-                        <div class="duration">January 2023 - March 2024</div>
+                        <div class="duration">July 2021 - March 2024</div>
                     </div>
                     <div class="location">
                         Bengaluru, Karnataka, India (Remote)
                     </div>
                     <div class="job-description">
                         Built and maintained critical microservices and
-                        serverless functions handling millions of daily requests
+                        serverless functions handling a lot of daily requests
                         for payment systems, lead generation, and notification
-                        pipelines using Node.js, TypeScript, and event-driven
-                        architecture with Apache Kafka. Scaled services through
-                        queuing non-critical writes, maintaining distributed
-                        caches, and load balancing across database replicas and
+                        pipelines using <u>Node.js</u>, and event-driven
+                        architecture with <u>Apache Kafka</u>. Scaled services through
+                        <u>queuing</u> non-critical writes, maintaining distributed
+                        caches, and <u>load balancing</u> across database replicas and
                         shards.
                         <br /><br />
                         <div class="achievement">
                             <span class="achievement-title"
                                 >• Real-time Leaderboard System:</span
                             >
-                            Led development from scratch processing thousands of
-                            engagements per second using Kafka and Redis.
-                            Devised optimal algorithms achieving sub-second
-                            scoring for hundreds of thousands of attendees.
+                            Led development from scratch processing <u>thousands of
+                            attendee engagements per second</u> using <u>Kafka</u> and <u>Redis</u>.
+                            This sub-second scoring system enabled customers
+                            to quickly identify top performers and target them instantly.
                         </div>
                         <div class="achievement">
                             <span class="achievement-title"
                                 >• URL Shortener Service:</span
                             >
-                            Designed high-performance service handling thousands
-                            of requests per second with sub-50ms global response
+                            Designed a service handling thousands
+                            of requests per second with <u>sub-50ms</u> global response
                             times using efficient hashing, distributed caches,
-                            and edge functions.
+                            and edge functions deployed globally using <u>AWS Lambda</u> and <u>API Gateway</u>.
+                            Near instant response times meant <u>lower dropoffs</u> and greater retention among
+                            customers.
                         </div>
                         <div class="achievement">
                             <span class="achievement-title"
                                 >• Data Archival Pipeline:</span
                             >
-                            Architected intelligent data migration framework
-                            moving terabytes from production databases (MySQL,
-                            MongoDB, Aurora) to AWS Glacier using data batching
-                            and streaming without service disruption.
+                            Architected intelligent data archival framework
+                            moving <u>terabytes</u> from production databases (MySQL,
+                            MongoDB, Aurora) to <u>AWS S3 Glacier</u> using data batching
+                            and streaming without service disruption. This resulted in significant
+                            improvement in retrieval times for critical data.
                         </div>
                         <div class="achievement">
                             <span class="achievement-title"
                                 >• Metrics Framework:</span
                             >
-                            Led Prometheus and Grafana implementation for
+                            Led <u>Prometheus</u> and <u>Grafana</u> implementation for
                             comprehensive service performance monitoring and
-                            availability measurement.
-                        </div>
-                        <div class="achievement">
-                            <span class="achievement-title"
-                                >• Testing Leadership:</span
-                            >
-                            Spearheaded initiative achieving 90%+ test coverage
-                            organization-wide, resulting in zero-bug releases and increased maintainability.
-                    </div>
-                </div>
-
-                <div class="experience-item">
-                    <div class="job-header">
-                        <div>
-                            <div class="job-title">SDE - II</div>
-                            <div class="company">Hubilo</div>
-                        </div>
-                        <div class="duration">July 2021 - December 2022</div>
-                    </div>
-                    <div class="location">
-                        Bengaluru, Karnataka, India (Remote)
-                    </div>
-                    <div class="job-description">
-                        <div class="achievement">
-                            <span class="achievement-title"
-                                >• Metaverse Platform:</span
-                            >
-                            Led development of real-time metaverse feature
-                            handling 30K requests per second with Redis Lua
-                            scripts ensuring data consistency and
-                            WebSocket-based real-time interactions.
+                            availability measurement. This enabled <u>real-time insights</u> and
+                            facilitating <u>proactive troubleshooting</u> and optimization without
+                            the customer reporting any downtime.
                         </div>
                         <div class="achievement">
                             <span class="achievement-title"
                                 >• WebSocket Infrastructure:</span
                             >
                             Re-architected WebSocket server cluster supporting
-                            10K concurrent connections per node while
+                            <u>10K concurrent connections</u> per node while
                             eliminating race conditions.
                         </div>
                         <div class="achievement">
                             <span class="achievement-title"
-                                >• RBAC Service:</span
+                                >• Testing Leadership:</span
                             >
-                            Designed and implemented role-based access control
-                            system with high availability through load-balanced
-                            cluster architecture.
+                            Spearheaded initiative achieving <u>90%+ test coverage</u>
+                            organization-wide, resulting in <u>zero-bug</u> releases and increased maintainability.
                         </div>
-                    </div>
-                </div>
-
-                <div class="experience-item">
-                    <div class="job-header">
-                        <div>
-                            <div class="job-title">
-                                Software Engineering Consultant
-                            </div>
-                            <div class="company">Musalleen Inc</div>
-                        </div>
-                        <div class="duration">August 2021 - March 2022</div>
-                    </div>
-                    <div class="location">
-                        Srinagar, Jammu & Kashmir, India (Remote)
-                    </div>
-                    <div class="job-description">
-                        Provided technical leadership and engineering process
-                        optimization. Conducted code reviews, mentored team
-                        members, and debugged complex technical issues while
-                        strengthening overall engineering practices.
                     </div>
                 </div>
 
@@ -497,31 +470,31 @@
                     <div class="location">Srinagar, J&K, India (Remote)</div>
                     <div class="job-description">
                         Led development of web and mobile applications using
-                        React.js, Kotlin, and Flutter. Architected and
-                        maintained monolithic APIs written in Flask and Kotlin
+                        <u>React.js</u>, <u>Kotlin</u>, and <u>Flutter</u>. Architected and
+                        maintained monolithic APIs written in <u>Flask</u> and <u>Kotlin</u>
                         with full Docker containerization for service
-                        orchestration and auto-scaling via AWS ECS.
+                        orchestration and auto-scaling via <u>AWS ECS</u>.
                         <br /><br />
                         <div class="achievement">
                             <span class="achievement-title"
                                 >• Blue-Green Deployments:</span
                             >
-                            Implemented zero-downtime deployment strategies
+                            Implemented <u>zero-downtime deployment</u> strategies
                             ensuring continuous system availability.
                         </div>
                         <div class="achievement">
                             <span class="achievement-title"
                                 >• CI/CD Pipeline:</span
                             >
-                            Established Jenkins server on AWS, automating
-                            testing and deployment across all products, reducing
-                            feedback loops significantly.
+                            Established a <u>Jenkins</u> server on AWS, automating
+                            testing and deployment across all products, <u>reducing
+                            feedback loops</u> significantly.
                         </div>
                         <div class="achievement">
                             <span class="achievement-title"
                                 >• Infrastructure Automation:</span
                             >
-                            Utilized Terraform for automated infrastructure
+                            Utilized <u>Terraform</u> for automated infrastructure
                             provisioning for multiple clients.
                         </div>
                     </div>
@@ -557,9 +530,9 @@
                     <div class="location">Srinagar, J&K, India</div>
                     <div class="job-description">
                         Designed and authored distributed, highly available
-                        systems from ground up using Node.js and Golang. Led
+                        systems from ground up using <u>Node.js</u> and <u>Golang</u>. Led
                         development of web and mobile applications using
-                        React.js, React Native, and Kotlin. Progressed to
+                        <u>React.js</u>, <u>React Native</u>, and <u>Kotlin</u>. Progressed to
                         Technical Lead role, managing entire engineering team
                         for 6 months.
                     </div>
@@ -570,6 +543,27 @@
             <div class="section">
                 <div class="section-title">
                     Notable Projects & Part-Time Experience
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <div>
+                            <div class="job-title">
+                                Software Engineering Consultant
+                            </div>
+                            <div class="company">Musalleen Inc</div>
+                        </div>
+                        <div class="duration">August 2021 - March 2022</div>
+                    </div>
+                    <div class="location">
+                        Srinagar, Jammu & Kashmir, India (Remote)
+                    </div>
+                    <div class="job-description">
+                        Provided technical leadership and engineering process
+                        optimization. Conducted <u>code reviews</u>, <u>mentored team
+                        members</u>, and <u>debugged</u> complex technical issues while
+                        strengthening overall engineering practices.
+                    </div>
                 </div>
 
                 <div class="experience-item">
@@ -760,7 +754,6 @@
                     onclick="window.print(); return false;"
                 >
                     Download PDF
-                </>
             </span>
         </div>
     </body>
